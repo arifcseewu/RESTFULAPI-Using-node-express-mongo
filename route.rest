@@ -2,7 +2,7 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/5d2812a49def9d253d223495
+GET http://localhost:3000/subscribers/5d2828e09b35cb340513cbc2
 
 
 ###
@@ -11,7 +11,7 @@ POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-    "name": "arif",
+    "name": "arif mahmud",
     "subscribedToChannel": "Web Dev"
 }
 
@@ -26,6 +26,6 @@ PATCH http://localhost:3000/subscribers/5d28186643933028fff58a19
 Content-Type: application/json
 
 {
-    "name": "ariful Islam",
+    "name": "ariful Islam arif",
     "subscribedToChannel": "Web Dev"
 }
