@@ -2,15 +2,30 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/15
+GET http://localhost:3000/subscribers/5d2812a49def9d253d223495
 
 
 ###
 
 POST http://localhost:3000/subscribers
-
 Content-Type: application/json
+
 {
-    "name": "amazing person",
+    "name": "arif",
+    "subscribedToChannel": "Web Dev"
+}
+
+###
+
+DELETE  http://localhost:3000/subscribers/5d2812a49def9d253d223495
+
+
+###
+
+PATCH http://localhost:3000/subscribers/5d28186643933028fff58a19
+Content-Type: application/json
+
+{
+    "name": "ariful Islam",
     "subscribedToChannel": "Web Dev"
 }
